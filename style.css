@@ -20,6 +20,7 @@ body{
     background-color:#121212;
     margin:0.75rem;
     border-radius: 1rem;
+    /* display: flex; */
 }
 .content{
     flex:1;
@@ -30,9 +31,12 @@ body{
 .extinfo{
     right:0;
     width:360px;
+    height: 100vh;
     background-color:#121212;
     border-radius: 1rem;
-    margin:0.75rem
+    margin:0.75rem;
+    color:white;
+    overflow:auto;
 }
 .topbar{
     background-color: black;
@@ -63,7 +67,7 @@ body{
     display: flex;
     flex:1;
     color:white;
-    margin-left:400px;
+    margin-left:22rem;
     margin-top: 1rem;
 }
 .navopt{
@@ -78,13 +82,14 @@ body{
     border-radius: 1.75rem;
     padding: 0.75rem;
     font-size: 1.15rem;
+    display: flex;
 }
 .sidenav{
-    margin-left:6rem;
+    margin-left:2rem;
 }
 .searchbox{
     margin-left:0.25rem;
-    width:380px;
+    width:350px;
     height: 1.15rem;
     font-size:1.25rem;
     background-color:transparent;
@@ -102,6 +107,7 @@ body{
     width:fit-content;
     border: none;
     margin:0 0.25rem;
+    
 }
 .badge:hover{
     cursor: pointer;
@@ -111,7 +117,7 @@ body{
     background-color:black;
     color:white;
     margin:0 1rem;
-    opacity: 0.60;
+    opacity: 0.60;  
 }
 .darkbadge:hover{
     opacity: 1;
@@ -119,4 +125,77 @@ body{
 .big{
     font-size: 1.10rem;
     padding:0 0.25rem;
+}
+.sidetopopt{
+    display: flex;
+    font-weight: 700;
+    color:white;
+}
+.option{
+    height: 2rem;
+    background-color:#232323;
+    margin:0.5rem 1rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+    padding:0.25rem 0.65rem;
+    width: fit-content;
+}
+.option:hover{
+    background-color: #343434;
+}
+.sidemidopt{
+    display: flex;
+    justify-content: space-between;
+}
+.artistbars{
+    color:white;
+    margin:0.25rem 0.5rem;
+}
+.bars{
+    display: flex;
+    gap:0rem;
+    display: flex;
+    padding:0.25rem 0.75rem;
+    border-radius: 1rem;
+    margin:0 0rem;
+    width:90%;
+}
+.artistdata{
+    margin:0 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.artistbars h3,h6{
+    margin: 0;
+}
+.artistimage{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+.bars:hover{
+    background-color: #343434;
+}
+.songname{
+    font-size: 1.5rem;
+    margin:1rem 0;
+}
+.songimage{ 
+    width:20rem;
+}
+.songdetail h1,h3{
+    margin: 0;
+}
+.songdetail h3{
+    margin:0;
+}
+.songdetail h1:hover,h3:hover{
+    text-decoration: underline;
+}
+.extrainfocontainer{
+    margin:1rem 1.8rem;
+}
+.singerdetails{
+    padding-bottom: 10rem;
 }
