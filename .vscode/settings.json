@@ -1,4 +1,6 @@
 {
     "liveServer.settings.port": 5501,
-    "livePreview.hostIP": "192.168.142.145"
+    "livePreview.hostIP": "172.17.16.1",
+    "livePreview.serverRoot": "172.17.16.1",
+    "liveServer.settings.host": "172.17.16.1"
 }
